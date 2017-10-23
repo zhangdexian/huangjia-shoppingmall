@@ -1,0 +1,159 @@
+@import "_function";
+
+*{
+  font-family: 微软雅黑;
+}
+.wrap{
+  .w(750);
+  background: url("../img/login01.png") no-repeat;
+  .p-t(16);
+  .t-a-c;
+  .wrap_head{
+    .o-f;
+    .m-b(80);
+    a{
+      .f-s(54);
+      .c(#fff);
+      .f-l;
+      .m-l(30);
+      .dis-b;
+      .h(62);
+      -webkit-transform: translateY(-.16rem);
+      -moz-transform: translateY(-.16rem);
+      -ms-transform: translateY(-.16rem);
+      -o-transform: translateY(-.16rem);
+      transform: translateY(-.16rem);
+    }
+    h4{
+      .t-a-c;
+      .f-s(30);
+      .c(#fff);
+      .l-h(62);
+      .w(700);
+    }
+  }
+  .avatar{
+    .w(236);
+    .h(236);
+    border-radius: 50%;
+    .m-a;
+    .o-f;
+    img{
+      .w(233);
+      .h(233);
+    }
+  }
+  .login{
+    .m-t(80);
+    .f-s-0;
+    .user_name,.pwd{
+      .t-a-c;
+      .b-b(1,solid,#fff);
+      .w(570);
+      .h(54);
+      .m-a;
+      .f-s(26);
+      .l-h(54);
+      .t-a-l;
+      span{
+        color: red;
+      }
+      ::-webkit-input-placeholder {
+        color:#fff;
+      }
+      :-moz-placeholder {
+        color:#fff;
+      }
+      ::-moz-placeholder {
+        color:#fff;
+      }
+      :-ms-input-placeholder {
+        color:#fff;
+      }
+      input{
+          .w(520);
+          .h(50);
+          .b-n;
+          .c(#fff);
+          background-color: transparent;
+          outline: none;
+          .f-s(30);
+          .l-h(50);
+          .t-i(30);
+        }
+      &.user_name{
+        img{
+          .w(30);
+          .h(32);
+          .m-r(6);
+        }
+        .m-b(60);
+      }
+      &.pwd{
+        img{
+          .w(25);
+          .h(32);
+          .m-r(11);
+        }
+        .m-b(60);
+      }
+    }
+    .bth{
+      .m-t(84);
+      button,a{
+        .dis-ib;
+        .w(318);
+        .h(64);
+        .b-r(14);
+        .f-s(30);
+        .c(#fff);
+        .l-h(64);
+        .b-n;
+        .outline-n;
+      }
+      button{
+        background-color: rgba(255,255,255,0.3);
+        .m-b(20);
+      }
+    }
+
+  }
+  .third_party_login{
+    .m-t(80);
+    .p-b(110);
+    .f-s-0;
+    h5{
+      .f-s(30);
+      .c(#fff);
+      position: relative;
+      .m-b(34);
+      &:before{
+        content: "";
+        display: block;
+        .w(190);
+        .h(1);
+        background: linear-gradient(to left,#fff,#8a8b89);
+        position: absolute;
+        .t(14);
+        .l(100);
+      }
+      &:after{
+        content: "";
+        display: block;
+        .w(190);
+        .h(1);
+        background: linear-gradient(to right,#fff,#8a8b89);
+        position: absolute;
+        .t(14);
+        .r(100);
+      }
+    }
+    a{
+      margin: 0 1.02rem;
+      img{
+        .w(71);
+        .h(71);
+      }
+    }
+  }
+}

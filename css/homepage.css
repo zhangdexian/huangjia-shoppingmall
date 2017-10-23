@@ -1,0 +1,339 @@
+*,
+a {
+  font-family: 微软雅黑;
+}
+.header {
+  width: 100%;
+  padding-top: 0.48rem;
+  padding-bottom: 0.48rem;
+  background-color: #999999;
+}
+.header form {
+  font-size: 0;
+  overflow: hidden;
+  padding-left: 1.68rem;
+}
+.header form .search {
+  height: 0.56rem;
+  width: 10.48rem;
+  border: .02rem solid #fff;
+  margin: 0 auto;
+  float: left;
+  padding-left: 0.12rem;
+  height: 0.8rem;
+  text-align: left;
+}
+.header form .search img {
+  width: 0.46rem;
+  height: 0.5rem;
+  margin-top: 0.16rem;
+  margin-right: 0.2rem;
+}
+.header form .search input {
+  width: 9.24rem;
+  font-size: 0.48rem;
+  color: #cccccc;
+  line-height: 0.8rem;
+  vertical-align: top;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.header form .search_bth {
+  display: inline-block;
+  font-size: 0.6rem;
+  margin-left: 0.48rem;
+  color: #ffffff;
+  line-height: 0.8rem;
+}
+.middle {
+  padding-bottom: 2.4rem;
+  font-size: 0;
+}
+.middle .shop_show {
+  overflow: hidden;
+  background-color: #e9e7e7;
+}
+.middle .shop_show h5 a {
+  font-size: 0.96rem;
+  line-height: 1.28rem;
+  color: #000000;
+  font-weight: normal;
+}
+.middle .shop_show p a {
+  font-size: 0.6rem;
+  line-height: 1rem;
+  color: #333333;
+}
+.middle .shop_show .shop_left,
+.middle .shop_show .shop_right {
+  width: 7.46rem;
+  background-color: #ffffff;
+  padding: .36rem 0;
+  float: left;
+  overflow: hidden;
+}
+.middle .shop_show .shop_left div,
+.middle .shop_show .shop_right div {
+  float: left;
+  margin-right: 0.4rem;
+  margin-left: 0.36rem;
+}
+.middle .shop_show .shop_left a img {
+  width: 1.36rem;
+  height: 1.6rem;
+  margin-top: 0.32rem;
+}
+.middle .shop_show .shop_right {
+  float: right;
+}
+.middle .shop_show .shop_right a img {
+  width: 1.6rem;
+  height: 1.5rem;
+  margin-top: 0.32rem;
+}
+.middle .menu {
+  overflow: hidden;
+  border-top: .4rem solid #e9e7e7;
+  padding: 0.36rem;
+  display: flex;
+  justify-content: space-between;
+}
+.middle .menu div {
+  text-align: center;
+}
+.middle .menu div h5 {
+  margin-top: 0.4rem;
+}
+.middle .menu div h5 a {
+  font-size: 0.48rem;
+  color: #333333;
+  font-weight: normal;
+}
+.middle .menu div a img {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+.middle .super_brand {
+  overflow: hidden;
+  border-top: 20px solid #e9e7e7;
+  padding-left: 0.36rem;
+}
+.middle .super_brand h4 {
+  font-size: 0.52rem;
+  color: #000000;
+  line-height: 1.24rem;
+}
+.middle .super_brand .brand_left {
+  float: left;
+}
+.middle .super_brand .brand_left a img {
+  width: 6.9rem;
+  height: 5.04rem;
+  margin-right: 0.72rem;
+}
+.middle .super_brand .brand_right a img {
+  width: 2.84rem;
+  height: 1.6rem;
+}
+.middle .wrap {
+  border-top: 20px solid #e9e7e7;
+}
+.middle .wrap h3 {
+  font-size: 0.48rem;
+  color: #000000;
+  border-bottom: 1px solid #e9e7e7;
+  line-height: 1.2rem;
+  text-indent: 0.32rem;
+  margin-bottom: 0.28rem;
+}
+.middle .wrap .scene {
+  padding: 0 .36rem;
+  margin-bottom: 0.2rem;
+}
+.middle .wrap .scene img {
+  width: 14.22rem;
+  height: 4.94rem;
+}
+.middle .wrap .wrap_content {
+  overflow: hidden;
+  padding: 0 .36rem;
+}
+.middle .wrap .wrap_content li {
+  float: left;
+  margin-bottom: 0.48rem;
+}
+.middle .wrap .wrap_content li:nth-child(2n) {
+  float: right;
+}
+.middle .wrap .wrap_content li img {
+  width: 6.86rem;
+  height: 6.3rem;
+}
+.middle .wrap .wrap_content li h5 {
+  margin-top: 0.12rem;
+}
+.middle .wrap .wrap_content li h5 a {
+  font-size: 0.52rem;
+  color: #000000;
+  line-height: 0.68rem;
+  font-weight: normal;
+}
+.middle .wrap .wrap_content li div a {
+  font-size: 0.48rem;
+  color: #666666;
+  overflow: hidden;
+}
+.middle .wrap .wrap_content li div a b {
+  font-weight: normal;
+}
+.middle .wrap .wrap_content li div a span:first-child {
+  font-size: 0.6rem;
+  color: #cc0000;
+}
+.middle .wrap .wrap_content li div a span:last-child {
+  float: right;
+  margin-right: 2.4rem;
+  line-height: 0.8rem;
+}
+.middle .wrap .hot_sale {
+  overflow: hidden;
+  margin-bottom: 0.52rem;
+  padding: 0 .36rem;
+}
+.middle .wrap .hot_sale li {
+  position: relative;
+  float: left;
+}
+.middle .wrap .hot_sale li:nth-child(3n+1) a img {
+  width: 7.02rem;
+  height: 7.96rem;
+}
+.middle .wrap .hot_sale li:nth-child(3n+1) .pro_txt {
+  width: 7.02rem;
+  height: 1.48rem;
+}
+.middle .wrap .hot_sale li:nth-child(3n) {
+  margin-top: 0.2rem;
+}
+.middle .wrap .hot_sale li:not( :nth-child(3n+1)) {
+  float: right;
+}
+.middle .wrap .hot_sale li:not( :nth-child(3n+1)) a img {
+  width: 6.66rem;
+  height: 3.88rem;
+}
+.middle .wrap .hot_sale li:not( :nth-child(3n+1)) .pro_txt {
+  width: 6.68rem;
+  height: 1.48rem;
+}
+.middle .wrap .hot_sale li .pro_txt {
+  position: absolute;
+  left: 0rem;
+  bottom: 0rem;
+  background-color: rgba(101, 99, 99, 0.8);
+}
+.middle .wrap .hot_sale li .pro_txt h5 a {
+  font-size: 0.52rem;
+  color: #ffffff;
+  margin-left: 0.12rem;
+  font-weight: normal;
+}
+.middle .wrap .hot_sale li .pro_txt div a {
+  font-size: 0.48rem;
+  color: #cccccc;
+  overflow: hidden;
+  line-height: 0.72rem;
+}
+.middle .wrap .hot_sale li .pro_txt div a b {
+  font-weight: normal;
+}
+.middle .wrap .hot_sale li .pro_txt div a span:first-child {
+  font-size: 0.6rem;
+  color: #ff0000;
+  margin-left: 0.12rem;
+}
+.middle .wrap .hot_sale li .pro_txt div a span:last-child {
+  font-size: 0.48rem;
+  float: right;
+  margin-right: 2.32rem;
+}
+.middle .wrap .recommend {
+  overflow: hidden;
+  padding: 0 .36rem;
+}
+.middle .wrap .recommend li {
+  float: left;
+  margin-bottom: 0.48rem;
+}
+.middle .wrap .recommend li:nth-child(2) {
+  margin-left: 0.2rem;
+}
+.middle .wrap .recommend li:nth-child(3n) {
+  float: right;
+}
+.middle .wrap .recommend li a img {
+  width: 4.58rem;
+  height: 5.58rem;
+}
+.middle .wrap .recommend li h5 {
+  margin-top: 0.12rem;
+}
+.middle .wrap .recommend li h5 a {
+  font-size: 0.52rem;
+  color: #000000;
+  line-height: 0.68rem;
+  font-weight: normal;
+}
+.middle .wrap .recommend li div a {
+  font-size: 0.48rem;
+  overflow: hidden;
+}
+.middle .wrap .recommend li div a b {
+  font-weight: normal;
+}
+.middle .wrap .recommend li div a span:first-child {
+  font-size: 0.6rem;
+  color: #cc0000;
+}
+.middle .wrap .recommend li div a span:last-child {
+  font-size: 0.6rem;
+  color: #333333;
+  font-size: 0.48rem;
+  float: right;
+  margin-right: 0.2rem;
+  line-height: 0.8rem;
+}
+.footer {
+  width: 15rem;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0rem;
+}
+.footer ul {
+  overflow: hidden;
+  padding: .2rem .68rem;
+  font-size: 0;
+  border-top: .04rem solid #e4e4e4;
+  box-shadow: 0 -0.04rem 0.2rem 0.1rem #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul li {
+  text-align: center;
+}
+.footer ul li.current a {
+  color: #ff9900;
+}
+.footer ul li a {
+  text-align: center;
+  font-size: 0.48rem;
+  color: #333333;
+}
+.footer ul li a img {
+  width: 0.96rem;
+  height: 0.96rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.2rem;
+}

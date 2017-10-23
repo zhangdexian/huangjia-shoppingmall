@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="#"/><!--网页的关键字-->
+    <meta name="description" content="#"/><!--网页描述-->
+    <meta name="author" content="多迪"/><!--作者-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <title>购物车</title>
+    <base target="_self"><!--覆盖当前页-->
+    <link rel="stylesheet" href="css/public.css" /><!--公共样式-->
+    <link rel="stylesheet" href="css/shop_cart.css" /><!--自身样式-->
+</head>
+<body>
+<div class="header">
+    <a href="javascript:history.go(-1);"> < </a>
+    <h3>购物车</h3>
+</div>
+<div class="middle">
+    <div class="wrap_top">
+        <label ><span></span><input type="checkbox" class="check_all"><b>√</b>全选</label>
+        <a href="javascript:;">清空购物车</a>
+    </div>
+    <ul class="cart_item">
+
+    </ul>
+</div>
+<div class="footer">
+    <div class="sum_up">合计：￥<span class="total_price">66.00</span></div>
+    <a href="confirm_order.html" id="buyRightNow">立即购买</a>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/placeholder.js"></script>
+<script src="js/shop_cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,168 @@
+* {
+  font-family: 微软雅黑;
+}
+.wrap {
+  width: 15rem;
+  background: url("../img/login01.png") no-repeat;
+  padding-top: 0.32rem;
+  text-align: center;
+}
+.wrap .wrap_head {
+  overflow: hidden;
+  margin-bottom: 1.6rem;
+}
+.wrap .wrap_head a {
+  font-size: 1.08rem;
+  color: #ffffff;
+  float: left;
+  margin-left: 0.6rem;
+  display: block;
+  height: 1.24rem;
+  -webkit-transform: translateY(-0.16rem);
+  -moz-transform: translateY(-0.16rem);
+  -ms-transform: translateY(-0.16rem);
+  -o-transform: translateY(-0.16rem);
+  transform: translateY(-0.16rem);
+}
+.wrap .wrap_head h4 {
+  text-align: center;
+  font-size: 0.6rem;
+  color: #ffffff;
+  line-height: 1.24rem;
+  width: 14rem;
+}
+.wrap .avatar {
+  width: 4.72rem;
+  height: 4.72rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.wrap .avatar img {
+  width: 4.66rem;
+  height: 4.66rem;
+}
+.wrap .login {
+  margin-top: 1.6rem;
+  font-size: 0;
+}
+.wrap .login .user_name,
+.wrap .login .pwd {
+  text-align: center;
+  border-bottom: 0.02rem solid #ffffff;
+  width: 11.4rem;
+  height: 1.08rem;
+  margin: 0 auto;
+  font-size: 0.52rem;
+  line-height: 1.08rem;
+  text-align: left;
+}
+.wrap .login .user_name span,
+.wrap .login .pwd span {
+  color: red;
+}
+.wrap .login .user_name ::-webkit-input-placeholder,
+.wrap .login .pwd ::-webkit-input-placeholder {
+  color: #fff;
+}
+.wrap .login .user_name :-moz-placeholder,
+.wrap .login .pwd :-moz-placeholder {
+  color: #fff;
+}
+.wrap .login .user_name ::-moz-placeholder,
+.wrap .login .pwd ::-moz-placeholder {
+  color: #fff;
+}
+.wrap .login .user_name :-ms-input-placeholder,
+.wrap .login .pwd :-ms-input-placeholder {
+  color: #fff;
+}
+.wrap .login .user_name input,
+.wrap .login .pwd input {
+  width: 10.4rem;
+  height: 1rem;
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+  outline: none;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  text-indent: 0.6rem;
+}
+.wrap .login .user_name.user_name,
+.wrap .login .pwd.user_name {
+  margin-bottom: 1.2rem;
+}
+.wrap .login .user_name.user_name img,
+.wrap .login .pwd.user_name img {
+  width: 0.6rem;
+  height: 0.64rem;
+  margin-right: 0.12rem;
+}
+.wrap .login .user_name.pwd,
+.wrap .login .pwd.pwd {
+  margin-bottom: 1.2rem;
+}
+.wrap .login .user_name.pwd img,
+.wrap .login .pwd.pwd img {
+  width: 0.5rem;
+  height: 0.64rem;
+  margin-right: 0.22rem;
+}
+.wrap .login .bth {
+  margin-top: 1.68rem;
+}
+.wrap .login .bth button,
+.wrap .login .bth a {
+  display: inline-block;
+  width: 6.36rem;
+  height: 1.28rem;
+  border-radius: 0.28rem;
+  font-size: 0.6rem;
+  color: #ffffff;
+  line-height: 1.28rem;
+  border: none;
+  outline: none;
+}
+.wrap .login .bth button {
+  background-color: rgba(255, 255, 255, 0.3);
+  margin-bottom: 0.4rem;
+}
+.wrap .third_party_login {
+  margin-top: 1.6rem;
+  padding-bottom: 2.2rem;
+  font-size: 0;
+}
+.wrap .third_party_login h5 {
+  font-size: 0.6rem;
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 0.68rem;
+}
+.wrap .third_party_login h5:before {
+  content: "";
+  display: block;
+  width: 3.8rem;
+  height: 0.02rem;
+  background: linear-gradient(to left, #ffffff, #8a8b89);
+  position: absolute;
+  top: 0.28rem;
+  left: 2rem;
+}
+.wrap .third_party_login h5:after {
+  content: "";
+  display: block;
+  width: 3.8rem;
+  height: 0.02rem;
+  background: linear-gradient(to right, #ffffff, #8a8b89);
+  position: absolute;
+  top: 0.28rem;
+  right: 2rem;
+}
+.wrap .third_party_login a {
+  margin: 0 1.02rem;
+}
+.wrap .third_party_login a img {
+  width: 1.42rem;
+  height: 1.42rem;
+}

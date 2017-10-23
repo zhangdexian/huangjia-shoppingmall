@@ -1,0 +1,217 @@
+.header {
+  width: 15rem;
+  overflow: hidden;
+  text-align: center;
+  background-color: #999999;
+}
+.header a {
+  float: left;
+  color: #ffffff;
+  margin-left: 0.52rem;
+  line-height: 1.8rem;
+  margin-top: -0.08rem;
+}
+.header h3 {
+  width: 14rem;
+  font-size: 0.72rem;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1.8rem;
+}
+.middle {
+  font-size: 0.48rem;
+  color: #333333;
+  padding-bottom: 2rem;
+}
+.middle .wrap_top {
+  overflow: hidden;
+  border-bottom: 0.02rem solid #333333;
+  margin-bottom: 0.4rem;
+}
+.middle .wrap_top label {
+  float: left;
+  line-height: 1.2rem;
+  position: relative;
+  text-indent: 1rem;
+}
+.middle .wrap_top label span {
+  display: inline-block;
+  width: 0.4rem;
+  height: 0.4rem;
+  border: 0.02rem solid #ff9900;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.38rem;
+}
+.middle .wrap_top label b {
+  position: absolute;
+  color: #ff9900;
+  top: 0rem;
+  left: -0.56rem;
+  opacity: 0;
+}
+.middle .wrap_top label .check_all {
+  opacity: 0;
+  position: absolute;
+  z-index: 10;
+}
+.middle .wrap_top label .check_all:checked + b {
+  opacity: 1;
+}
+.middle .wrap_top a {
+  float: right;
+  font-size: 0.48rem;
+  color: #333333;
+  line-height: 1.2rem;
+  margin-right: 0.4rem;
+}
+.middle .cart_item li {
+  margin-bottom: 0.6rem;
+}
+.middle .cart_item li table {
+  border-collapse: collapse;
+}
+.middle .cart_item li table tr:last-child {
+  height: 0.6rem;
+}
+.middle .cart_item li table .check_item {
+  width: 1.2rem;
+  vertical-align: top;
+  text-align: center;
+}
+.middle .cart_item li table .check_item .box {
+  width: 0.4rem;
+  height: 0.4rem;
+  border: 0.02rem solid #ff9900;
+  margin: 0 auto;
+  position: relative;
+}
+.middle .cart_item li table .check_item .box span {
+  color: #ff9900;
+  font-weight: bold;
+  position: absolute;
+  opacity: 0;
+  top: -0.16rem;
+  left: 0rem;
+}
+.middle .cart_item li table .check_item .box input {
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+}
+.middle .cart_item li table .check_item .box input:checked + span {
+  opacity: 1;
+}
+.middle .cart_item li table .pro_pic {
+  vertical-align: top;
+}
+.middle .cart_item li table .pro_pic a {
+  display: inline-block;
+  width: 5.46rem;
+  height: 5.22rem;
+}
+.middle .cart_item li table .pro_pic a img {
+  width: 5.46rem;
+  height: 5.22rem;
+}
+.middle .cart_item li table .pro_model {
+  vertical-align: top;
+  padding-left: 0.4rem;
+}
+.middle .cart_item li table .pro_model a {
+  color: #333333;
+}
+.middle .cart_item li table .price-wrap,
+.middle .cart_item li table .count_wrap,
+.middle .cart_item li table .total_wrap {
+  width: 1.6rem;
+  line-height: 1rem;
+  padding-left: 0.4rem;
+}
+.middle .cart_item li table .price {
+  color: #cc3333;
+}
+.middle .cart_item li table .discount_info {
+  text-align: right;
+}
+.middle .cart_item li table .discount_info a {
+  color: #666666;
+  padding-right: 0.4rem;
+}
+.middle .cart_item li table .count_info {
+  font-size: 0;
+}
+.middle .cart_item li table .count_info div {
+  border: 0.04rem solid #cccccc;
+  width: 2.56rem;
+  height: 0.68rem;
+}
+.middle .cart_item li table .count_info .minus,
+.middle .cart_item li table .count_info .plus {
+  font-size: 0.48rem;
+  color: #333333;
+  display: inline-block;
+  width: 0.88rem;
+  height: 0.68rem;
+  line-height: 0.68rem;
+  background-color: #cccccc;
+  text-align: center;
+}
+.middle .cart_item li table .count_info .count {
+  width: 0.8rem;
+  height: 0.6rem;
+  border: none;
+  outline: none;
+  text-align: center;
+  vertical-align: top;
+}
+.middle .cart_item li table .total_tag {
+  font-size: 0.48rem;
+  color: #cc0000;
+}
+.middle .cart_item li table .total_tag .total {
+  font-size: 0.6rem;
+}
+.middle .cart_item li table .remove_item {
+  text-align: right;
+}
+.middle .cart_item li table .remove_item img {
+  margin-right: 1.8rem;
+  width: 0.4rem;
+  height: 0.42rem;
+}
+.footer {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0rem;
+}
+.footer .sum_up {
+  float: left;
+  font-size: 0.6rem;
+  color: #333333;
+  line-height: 2rem;
+  width: 9.4rem;
+  text-align: center;
+}
+.footer .sum_up .total_price {
+  color: #cc0000;
+}
+.footer a {
+  display: inline-block;
+  font-size: 0.6rem;
+  width: 5.6rem;
+  color: #ffffff;
+  background-color: #ff9900;
+  line-height: 2rem;
+  text-align: center;
+}
+.footer:before {
+  content: "";
+  width: 15rem;
+  height: 0.2rem;
+  display: block;
+  background: linear-gradient(to top, #ececec, #f9f9f9);
+  position: absolute;
+  top: 0rem;
+}

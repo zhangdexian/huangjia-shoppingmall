@@ -1,0 +1,117 @@
+@import "_function";
+
+*{
+  font-family: 微软雅黑;
+}
+
+.header{
+  width: 100%;
+  .p-t(24);
+  .p-b(24);
+  .b-g-c(#999999);
+  form{
+    .f-s-0;
+    .o-f;
+    .prev{
+      .dis-ib;
+      .w(84);
+      .f-s(50);
+      .c(#fff);
+      .f-l;
+      .t-a-c;
+      .h(40);
+      -webkit-transform: translateY(-.30rem);
+      -moz-transform: translateY(-.30rem);
+      -ms-transform: translateY(-.30rem);
+      -o-transform: translateY(-.30rem);
+      transform: translateY(-.30rem);
+    }
+    .search{
+      .h(28);
+      .w(524);
+      border: .02rem solid #fff;
+      .m-a;
+      .f-l;
+      .p-l(6);
+      .h(40);
+      .t-a-l;
+      img{
+        .w(23);
+        .h(25);
+        .m-t(8);
+        .m-r(10);
+      }
+      input{
+        .w(462);
+        .b-n;
+        .f-s(24);
+        .c(#ccc);
+        .l-h(40);
+        vertical-align: top;
+        .b-g-c(transparent);
+        .b-n;
+        outline: none;
+      }
+    }
+    .search_bth{
+      .dis-ib;
+      .f-s(30);
+      .m-l(24);
+      .c(#fff);
+      .l-h(40);
+    }
+  }
+
+}
+.middle{
+  .tab_con{
+    .o-f;
+    .b-g-c(#e9e8e8);
+    li{
+      .f-l;
+      .f-s(30);
+      .c(#333);
+      .l-h(72);
+      margin: 0 1.8rem;
+      .t-a-c;
+      &.current{
+        .c(#ff9900);
+        .b-b(3,solid ,#ff9900);
+      }
+      &:first-child{
+        .m-l(170);
+      }
+    }
+  }
+  .tab_item{
+    .f-s-0;
+  .p(30);
+    h5{
+      .f-s(26);
+      .c(#cc9900);
+      .f-w-n;
+    }
+      ul{
+        .o-f;
+      li {
+        .f-l;
+        .h(40);
+        .w(134);
+        .b(1,solid,#ccc);
+        .o-f;
+        margin: .28rem .5rem;
+        margin-left: 0;
+        .t-a-c;
+        a{
+          .dis-ib;
+          .h(40);
+          .f-s(24);
+          .c(#333);
+          .l-h(40);
+        }
+      }
+    }
+  }
+}
+
+

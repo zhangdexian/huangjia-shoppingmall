@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="#"/><!--网页的关键字-->
+    <meta name="description" content="#"/><!--网页描述-->
+    <meta name="author" content="多迪"/><!--作者-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <title>支付失败</title>
+    <base target="_self"><!--覆盖当前页-->
+    <link rel="stylesheet" href="css/public.css" /><!--公共样式-->
+    <link rel="stylesheet" href="css/pay_failure.css" /><!--自身样式-->
+</head>
+<body>
+<div class="header">
+    <a href="javascript:history.go(-1);"> < </a>
+    <h3>支付订单</h3>
+</div>
+<div class="content">
+    <img src="img/pay_failure.png" alt="">
+    <h5>抱歉，无法完成支付</h5>
+    <div class="err">可能是网络异常，请稍后再支付</div>
+</div>
+<div class="order_info">
+    <h5>订单信息</h5>
+    <ul class="order_item">
+        <li>
+            <table>
+                <tr>
+                    <td rowspan="3" class="order_pic"><a href="pro_details.html?pro_id=20"><img src="img/pay_failure02.png" alt=""></a></td>
+                    <td colspan="2" class="order_headline"><a href="pro_details.html?pro_id=20">南极人 简约现代客厅茶几地毯丝毛绒卧室床边满铺地毯</a></td>
+                </tr>
+                <tr>
+                    <td class="count_tag">数量：</td>
+                    <td class="count">1件</td>
+                </tr>
+                <tr>
+                    <td class="price_wrap">价格：</td>
+                    <td class="price_tag">￥<span class="price">99.00</span></td>
+                </tr>
+            </table>
+        </li>
+    </ul>
+</div>
+
+<div class="bth">
+    <a href="pay.html">重新支付</a>
+    <a href="order.html">查看订单</a>
+</div>
+
+<script src="js/jquery1.42.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/placeholder.js"></script>
+</body>
+</html>

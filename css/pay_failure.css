@@ -1,0 +1,107 @@
+.header {
+  overflow: hidden;
+  text-align: center;
+  background-color: #999999;
+}
+.header a {
+  float: left;
+  color: #ffffff;
+  margin-left: 0.52rem;
+  line-height: 1.8rem;
+  margin-top: -0.08rem;
+}
+.header h3 {
+  width: 14rem;
+  font-size: 0.72rem;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1.8rem;
+}
+.content {
+  text-align: center;
+  font-size: 0;
+}
+.content img {
+  width: 2.24rem;
+  height: 2.24rem;
+  margin-top: 2rem;
+}
+.content h5 {
+  font-size: 0.6rem;
+  color: #333333;
+  font-weight: normal;
+  margin-top: 0.44rem;
+}
+.content .err {
+  font-size: 0.48rem;
+  color: #666666;
+  margin-top: 0.44rem;
+}
+.order_info {
+  padding: .6rem .4rem .88rem .4rem;
+  margin-top: 1.2rem;
+  border-top: 0.02rem solid #333333;
+}
+.order_info h5 {
+  font-size: 0.6rem;
+  color: #333333;
+  font-weight: normal;
+  margin-bottom: 0.2rem;
+}
+.order_info .order_item {
+  font-size: 0.52rem;
+  color: #333333;
+}
+.order_info .order_item li {
+  margin-bottom: 0.4rem;
+}
+.order_info .order_item li table {
+  border-collapse: collapse;
+}
+.order_info .order_item li table .order_pic {
+  width: 2.72rem;
+}
+.order_info .order_item li table .order_pic img {
+  width: 2.72rem;
+  height: 2.6rem;
+}
+.order_info .order_item li table .order_headline {
+  padding-left: 0.4rem;
+}
+.order_info .order_item li table .order_headline a {
+  color: #333333;
+}
+.order_info .order_item li table .count_tag,
+.order_info .order_item li table .price_wrap {
+  padding-left: 0.4rem;
+  color: #666666;
+  width: 1.6rem;
+  font-size: 0.48rem;
+}
+.order_info .order_item li table .price_tag {
+  font-size: 0.48rem;
+  color: #cc0000;
+}
+.order_info .order_item li table .price_tag .price {
+  font-size: 0.6rem;
+}
+.bth {
+  padding-bottom: 11.2rem;
+  text-align: center;
+  font-size: 0;
+}
+.bth a {
+  display: inline-block;
+  width: 3.88rem;
+  height: 0.96rem;
+  text-align: center;
+  line-height: 0.96rem;
+  font-size: 0.6rem;
+  color: #333333;
+  border: 0.02rem solid #cccccc;
+  margin: 0.32rem;
+}
+.bth a:first-child {
+  color: #ff9900;
+  border: 0.02rem solid #ff9900;
+}

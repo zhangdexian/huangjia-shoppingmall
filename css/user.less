@@ -1,0 +1,148 @@
+@import "_function";
+
+.header{
+  .o-f;
+  .t-a-c;
+  .p-0;
+  .b-g-c(#999);
+  a{
+    .f-l;
+    .c(#fff);
+    .m-l(26);
+    .l-h(90);
+    .m-t(-4);
+  }
+  h3{
+    .w(700);
+    .f-s(36);
+    .c(#fff);
+    .f-w-n;
+    .l-h(90);
+  }
+
+}
+
+.middle{
+  .p-b(430);
+  .user_info{
+    .t-a-c;
+    .p-t(60);
+    width: 100%;
+    background: url("../img/user02.png") no-repeat;
+    background-size: cover;
+    .avatar{
+      .w(154);
+      .h(154);
+      .m-a;
+      border-radius: 50%;
+      img{
+        .w(154);
+        .h(154);
+      }
+    }
+    h5{
+      .f-s(24);
+      .c(#fff);
+      .f-w-n;
+      .m-t(6);
+    }
+    .edit_profile{
+      text-align: right;
+      a{
+        .f-s(24);
+        .c(#fff);
+        .m-r(20);
+      }
+    }
+  }
+  .my_order{
+    .l-h(64);
+    padding: 0 .4rem;
+    .o-f;
+    h5{
+      .f-s(30);
+      .c(#333);
+      .f-w-n;
+      .f-l;
+      .m-b(10);
+    }
+    a{
+      .f-r;
+      .f-s(24);
+      .c(#666);
+    }
+  }
+  .order_item{
+    .o-f;
+    .f-s(24);
+    .c(#666);
+    .b-b(1,solid,#ccc);
+    li{
+      .f-l;
+      padding: 0 .70rem;
+      .l-h(50);
+    }
+  }
+  .sub_menu{
+    .o-f;
+    .m-t(10);
+    li{
+      .b-b(1,solid,#ccc);
+      .h(74);
+      a{
+        .f-s(30);
+        .c(#333);
+        img{
+          .w(30);
+          .h(28);
+          margin: 0 .4rem;
+        }
+        span{
+          .f-r;
+          .m-r(20);
+          -webkit-transform: translateY(.5rem);
+          -moz-transform: translateY(.5rem);
+          -ms-transform: translateY(.5rem);
+          -o-transform: translateY(.5rem);
+          transform: translateY(.5rem);
+        }
+      }
+    }
+  }
+}
+
+.footer{
+  .w(750);
+  .b-g-c(#fff);
+  position: fixed;
+  .b(0);
+  ul{
+    .o-f;
+    padding: .2rem .68rem;
+    .f-s-0;
+    border-top: .04rem solid #e4e4e4;
+    box-shadow: 0 -.04rem .2rem .1rem #e4e4e4 ;
+    display: flex;
+    justify-content: space-between;
+    li{
+      .t-a-c;
+      &.current{
+        a{
+          .c(#ff9900);
+        }
+      }
+      a {
+        .t-a-c;
+        img{
+          .w(48);
+          .h(48);
+          .dis-b;
+          .m-a;
+          .m-b(10);
+        }
+        .f-s(24);
+        .c(#333);
+      }
+    }
+  }
+}

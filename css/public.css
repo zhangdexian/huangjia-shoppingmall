@@ -1,0 +1,33 @@
+/*media*/
+/*@media screen and (min-width: 160px) {html{font-size:31.25%;}}*/
+/*@media screen and (min-width: 200px) {html{font-size:39.0625%;}}*/
+/*@media screen and (min-width: 240px) {html{font-size:46.875%;}}*/
+/*@media screen and (min-width: 280px) {html{font-size:54.6875%;}}*/
+/*@media screen and (min-width: 320px) {html{font-size:62.5%;}}!*10px/16px*100%*!
+@media screen and (min-width: 360px) {html{font-size:70.3125%;}}
+@media screen and (min-width: 400px) {html{font-size:78.125%;}}
+@media screen and (min-width: 440px) {html{font-size:85.9375%;}}
+@media screen and (min-width: 480px) {html{font-size:93.75%;}}
+@media screen and (min-width: 520px) {html{font-size:101.5625%;}}
+@media screen and (min-width: 560px) {html{font-size:109.375%;}}
+@media screen and (min-width: 600px) {html{font-size:117.1875%;}}
+@media screen and (min-width: 640px) {html{font-size:125%;}}!*20px/16px*100%  *!
+@media screen and (min-width: 680px) {html{font-size:132.8125%;}}
+@media screen and (min-width: 720px) {html{font-size:140.625%;}}
+@media screen and (min-width: 760px) {html{font-size:148.4375%;}}*/
+/*@media screen and (min-width: 800px) {html{font-size:156.25%;}}*/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 微软雅黑;
+}
+a {
+  font-family: 微软雅黑;
+}
+button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,264 @@
+.wrap {
+  width: 15rem;
+  background: url("../img/register01.png");
+  padding-top: 0.32rem;
+  text-align: center;
+}
+.wrap .wrap_head {
+  overflow: hidden;
+  margin-bottom: 1.6rem;
+}
+.wrap .wrap_head a {
+  font-size: 1.08rem;
+  color: #ffffff;
+  float: left;
+  margin-left: 0.6rem;
+  display: block;
+  height: 1.24rem;
+  -webkit-transform: translateY(-0.16rem);
+  -moz-transform: translateY(-0.16rem);
+  -ms-transform: translateY(-0.16rem);
+  -o-transform: translateY(-0.16rem);
+  transform: translateY(-0.16rem);
+}
+.wrap .wrap_head h4 {
+  text-align: center;
+  font-size: 0.6rem;
+  color: #ffffff;
+  line-height: 1.24rem;
+  width: 14rem;
+}
+.wrap .avatar {
+  width: 4.72rem;
+  height: 4.72rem;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.wrap .avatar img {
+  width: 4.66rem;
+  height: 4.66rem;
+}
+.wrap .register {
+  margin-top: 1.6rem;
+  font-size: 0;
+}
+.wrap .register .user_name,
+.wrap .register .pwd,
+.wrap .register .identify {
+  width: 11.6rem;
+  margin: 0 auto;
+  height: 1.08rem;
+  font-size: 0.6rem;
+  color: #ffffff;
+  line-height: 1.08rem;
+  text-indent: 0.4rem;
+  text-align: left;
+}
+.wrap .register .user_name span,
+.wrap .register .pwd span,
+.wrap .register .identify span {
+  color: red;
+  margin-left: 1rem;
+}
+.wrap .register .user_name ::-webkit-input-placeholder,
+.wrap .register .pwd ::-webkit-input-placeholder,
+.wrap .register .identify ::-webkit-input-placeholder {
+  color: #fff;
+}
+.wrap .register .user_name :-moz-placeholder,
+.wrap .register .pwd :-moz-placeholder,
+.wrap .register .identify :-moz-placeholder {
+  color: #fff;
+}
+.wrap .register .user_name ::-moz-placeholder,
+.wrap .register .pwd ::-moz-placeholder,
+.wrap .register .identify ::-moz-placeholder {
+  color: #fff;
+}
+.wrap .register .user_name :-ms-input-placeholder,
+.wrap .register .pwd :-ms-input-placeholder,
+.wrap .register .identify :-ms-input-placeholder {
+  color: #fff;
+}
+.wrap .register .user_name input,
+.wrap .register .pwd input,
+.wrap .register .identify input {
+  width: 10.24rem;
+  height: 1rem;
+  border: none;
+  border: 0.02rem solid #ffffff;
+  background-color: transparent;
+  outline: none;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  text-indent: 0.6rem;
+  color: #ffffff;
+}
+.wrap .register .user_name.user_name,
+.wrap .register .pwd.user_name,
+.wrap .register .identify.user_name {
+  margin-bottom: 1.2rem;
+}
+.wrap .register .user_name.user_name img,
+.wrap .register .pwd.user_name img,
+.wrap .register .identify.user_name img {
+  width: 0.6rem;
+  height: 0.64rem;
+  margin-right: 0.12rem;
+}
+.wrap .register .user_name.pwd,
+.wrap .register .pwd.pwd,
+.wrap .register .identify.pwd {
+  margin-bottom: 1.2rem;
+}
+.wrap .register .user_name.pwd img,
+.wrap .register .pwd.pwd img,
+.wrap .register .identify.pwd img {
+  width: 0.5rem;
+  height: 0.64rem;
+  margin-right: 0.22rem;
+}
+.wrap .register .user_name.identify,
+.wrap .register .pwd.identify,
+.wrap .register .identify.identify {
+  margin-bottom: 0.32rem;
+  text-align: left;
+  width: 11.6rem;
+  position: relative;
+  /*img:last-child{
+          .w(117);
+          .h(54);
+          .m-l(30);
+          vertical-align: bottom;
+        }*/
+}
+.wrap .register .user_name.identify img:first-child,
+.wrap .register .pwd.identify img:first-child,
+.wrap .register .identify.identify img:first-child {
+  width: 0.5rem;
+  height: 0.62rem;
+  margin-right: 0.22rem;
+  vertical-align: middle;
+}
+.wrap .register .user_name.identify span,
+.wrap .register .pwd.identify span,
+.wrap .register .identify.identify span {
+  display: inline-block;
+  width: 2.34rem;
+  height: 1.08rem;
+  margin-left: 0.6rem;
+  vertical-align: bottom;
+  background: url("../img/register10.png");
+}
+.wrap .register .user_name.identify i,
+.wrap .register .pwd.identify i,
+.wrap .register .identify.identify i {
+  position: absolute;
+  top: 0;
+  right: 3.52rem;
+  font-style: normal;
+}
+.wrap .register .user_name.identify i.correct,
+.wrap .register .pwd.identify i.correct,
+.wrap .register .identify.identify i.correct {
+  color: green;
+}
+.wrap .register .user_name.identify i.error,
+.wrap .register .pwd.identify i.error,
+.wrap .register .identify.identify i.error {
+  color: red;
+}
+.wrap .register .user_name.identify input,
+.wrap .register .pwd.identify input,
+.wrap .register .identify.identify input {
+  width: 7.32rem;
+}
+.wrap .register .subscribe {
+  font-size: 0.48rem;
+  color: #ffffff;
+  text-align: left;
+  text-indent: 2.72rem;
+  position: relative;
+}
+.wrap .register .subscribe span {
+  position: absolute;
+  color: #ff9900;
+  display: block;
+  top: 0rem;
+  left: 0.02rem;
+  font-size: 0.48rem;
+  font-weight: bold;
+  opacity: 0;
+}
+.wrap .register .subscribe input {
+  margin-right: 0.2rem;
+  position: relative;
+  opacity: 0;
+  z-index: 1;
+}
+.wrap .register .subscribe input:checked + span {
+  opacity: 1;
+}
+.wrap .register b {
+  display: inline-block;
+  width: 0.36rem;
+  height: 0.36rem;
+  border: 0.02rem solid #ffffff;
+  position: absolute;
+  top: 0.14rem;
+}
+.wrap .register button {
+  width: 4.84rem;
+  height: 1.08rem;
+  margin: 0 auto;
+  font-size: 0.6rem;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: none;
+  outline: none;
+  margin-top: 1.2rem;
+  margin-bottom: 0.28rem;
+}
+.wrap .register a {
+  font-size: 0.48rem;
+  color: #ffffff;
+}
+.wrap .third_party_login {
+  margin-top: 1.6rem;
+  padding-bottom: 2.2rem;
+  font-size: 0;
+}
+.wrap .third_party_login h5 {
+  font-size: 0.6rem;
+  color: #ffffff;
+  position: relative;
+  margin-bottom: 0.68rem;
+}
+.wrap .third_party_login h5:before {
+  content: "";
+  display: block;
+  width: 3.8rem;
+  height: 0.02rem;
+  background: linear-gradient(to left, #ffffff, #8a8b89);
+  position: absolute;
+  top: 0.28rem;
+  left: 2rem;
+}
+.wrap .third_party_login h5:after {
+  content: "";
+  display: block;
+  width: 3.8rem;
+  height: 0.02rem;
+  background: linear-gradient(to right, #ffffff, #8a8b89);
+  position: absolute;
+  top: 0.28rem;
+  right: 2rem;
+}
+.wrap .third_party_login a {
+  margin: 0 1.02rem;
+}
+.wrap .third_party_login a img {
+  width: 1.42rem;
+  height: 1.42rem;
+}

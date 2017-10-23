@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="#"/><!--网页的关键字-->
+    <meta name="description" content="#"/><!--网页描述-->
+    <meta name="author" content="多迪"/><!--作者-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+    <title>注册</title>
+    <base target="_self"><!--覆盖当前页-->
+    <link rel="stylesheet" href="css/public.css" /><!--公共样式-->
+    <link rel="stylesheet" href="css/register.css" /><!--自身样式-->
+</head>
+<body>
+<div class="wrap">
+    <div class="wrap_head">
+        <a href="javascript:history.go(-1);"> < </a>
+        <h4>注册</h4>
+    </div>
+    <div class="avatar">
+        <img src="img/register02.png" alt="">
+    </div>
+    <form action="#" class="register">
+        <div class="user_name"><img src="img/register03.png" alt=""><input type="text" name="user_name" placeholder="用户名" class="myplace" id="userName"><span></span></div>
+        <div class="pwd"><img src="img/register04.png" alt=""><input type="password" name="psw" placeholder="密码" class="myplace" id="psw"><span></span></div>
+        <div class="identify"><img src="img/register05.png" alt=""><input type="text" name="identify" placeholder="验证码" class="myplace" id="identify"><i></i><span id="identifyCode"></span><!--<img src="img/register06.png" alt="">--></div>
+        <div class="subscribe"><label><b></b><input type="checkbox"><span>√</span>同意服务协议</label></div>
+        <button id="registerBth">注册</button><br>
+        <a href="login.html">已注册？ 请登录</a>
+    </form>
+    <div class="third_party_login">
+        <h5>第三方登录</h5>
+        <a href="###"><img src="img/register07.png" alt=""></a>
+        <a href="###"><img src="img/register08.png" alt=""></a>
+        <a href="###"><img src="img/register09.png" alt=""></a>
+    </div>
+
+</div>
+<script src="js/jquery1.42.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>

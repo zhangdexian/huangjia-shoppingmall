@@ -1,0 +1,164 @@
+* {
+  font-family: 微软雅黑;
+}
+.caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: .24rem solid #666;
+  border-left: .12rem solid transparent;
+  border-right: .12rem solid transparent;
+}
+.header {
+  width: 100%;
+  padding-top: 0.48rem;
+  padding-bottom: 0.48rem;
+  background-color: #999999;
+}
+.header form {
+  font-size: 0;
+  overflow: hidden;
+}
+.header form .prev {
+  display: inline-block;
+  width: 1.68rem;
+  font-size: 1rem;
+  color: #ffffff;
+  float: left;
+  text-align: center;
+  height: 0.8rem;
+  -webkit-transform: translateY(-0.3rem);
+  -moz-transform: translateY(-0.3rem);
+  -ms-transform: translateY(-0.3rem);
+  -o-transform: translateY(-0.3rem);
+  transform: translateY(-0.3rem);
+}
+.header form .search {
+  height: 0.56rem;
+  width: 10.48rem;
+  border: .02rem solid #fff;
+  margin: 0 auto;
+  float: left;
+  padding-left: 0.12rem;
+  height: 0.8rem;
+  text-align: left;
+}
+.header form .search img {
+  width: 0.46rem;
+  height: 0.5rem;
+  margin-top: 0.16rem;
+  margin-right: 0.2rem;
+}
+.header form .search input {
+  width: 9.24rem;
+  font-size: 0.48rem;
+  color: #cccccc;
+  line-height: 0.8rem;
+  vertical-align: top;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.header form .search_bth {
+  display: inline-block;
+  font-size: 0.6rem;
+  margin-left: 0.48rem;
+  color: #ffffff;
+  line-height: 0.8rem;
+}
+.middle {
+  font-size: 0;
+}
+.middle .filter {
+  padding: 0 .6rem;
+  overflow: hidden;
+}
+.middle .filter li {
+  float: left;
+  font-size: 0.6rem;
+  color: #333333;
+  line-height: 1rem;
+}
+.middle .filter li:not(:first-child) {
+  margin-left: 2.4rem;
+}
+.middle .filter li.active {
+  color: #ff9900;
+}
+.middle .filter li.active .caret {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: .24rem solid #ff9900;
+  border-left: .12rem solid transparent;
+  border-right: .12rem solid transparent;
+}
+.middle .filter li span {
+  margin-left: 0.16rem;
+  margin-bottom: 0.08rem;
+}
+.middle .filter li img {
+  width: 0.56rem;
+  height: 0.54rem;
+}
+.middle .pro_item {
+  padding: 0 .4rem .6rem .4rem;
+}
+.middle .pro_item li {
+  overflow: hidden;
+  margin-bottom: 0.6rem;
+}
+.middle .pro_item li > div:first-child {
+  float: left;
+}
+.middle .pro_item li > div:first-child a img {
+  width: 5.16rem;
+  height: 4.06rem;
+}
+.middle .pro_item li > div:last-child {
+  width: 8.72rem;
+  float: left;
+  margin-left: 0.32rem;
+}
+.middle .pro_item li > div:last-child h5 {
+  margin-top: 0.2rem;
+}
+.middle .pro_item li > div:last-child h5 a {
+  font-size: 0.48rem;
+  color: #333333;
+  line-height: 0.76rem;
+  font-weight: normal;
+  /*超出3行隐藏并显示一个省略号*/
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.middle .pro_item li > div:last-child p a {
+  font-size: 0.52rem;
+  color: #cc0000;
+  line-height: 1.16rem;
+}
+.middle .pro_item li > div:last-child p a span {
+  font-size: 0.6rem;
+}
+.middle .pro_item li > div:last-child > div {
+  overflow: hidden;
+}
+.middle .pro_item li > div:last-child > div a {
+  font-size: 0.48rem;
+  color: #666666;
+  line-height: 0.72rem;
+}
+.middle .pro_item li > div:last-child > div a span:last-child {
+  margin-left: 0.28rem;
+}
+.middle .pro_item li > div:last-child > div a:last-child {
+  float: right;
+  display: inline-block;
+  width: 1.8rem;
+  font-size: 0.48rem;
+  color: #ffffff;
+  background-color: #ff9900;
+  text-align: center;
+}

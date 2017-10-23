@@ -1,0 +1,108 @@
+* {
+  font-family: 微软雅黑;
+}
+.header {
+  width: 100%;
+  padding-top: 0.48rem;
+  padding-bottom: 0.48rem;
+  background-color: #999999;
+}
+.header form {
+  font-size: 0;
+  overflow: hidden;
+}
+.header form .prev {
+  display: inline-block;
+  width: 1.68rem;
+  font-size: 1rem;
+  color: #ffffff;
+  float: left;
+  text-align: center;
+  height: 0.8rem;
+  -webkit-transform: translateY(-0.3rem);
+  -moz-transform: translateY(-0.3rem);
+  -ms-transform: translateY(-0.3rem);
+  -o-transform: translateY(-0.3rem);
+  transform: translateY(-0.3rem);
+}
+.header form .search {
+  height: 0.56rem;
+  width: 10.48rem;
+  border: .02rem solid #fff;
+  margin: 0 auto;
+  float: left;
+  padding-left: 0.12rem;
+  height: 0.8rem;
+  text-align: left;
+}
+.header form .search img {
+  width: 0.46rem;
+  height: 0.5rem;
+  margin-top: 0.16rem;
+  margin-right: 0.2rem;
+}
+.header form .search input {
+  width: 9.24rem;
+  font-size: 0.48rem;
+  color: #cccccc;
+  line-height: 0.8rem;
+  vertical-align: top;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.header form .search_bth {
+  display: inline-block;
+  font-size: 0.6rem;
+  margin-left: 0.48rem;
+  color: #ffffff;
+  line-height: 0.8rem;
+}
+.middle .tab_con {
+  overflow: hidden;
+  background-color: #e9e8e8;
+}
+.middle .tab_con li {
+  float: left;
+  font-size: 0.6rem;
+  color: #333333;
+  line-height: 1.44rem;
+  margin: 0 1.8rem;
+  text-align: center;
+}
+.middle .tab_con li.current {
+  color: #ff9900;
+  border-bottom: 0.06rem solid #ff9900;
+}
+.middle .tab_con li:first-child {
+  margin-left: 3.4rem;
+}
+.middle .tab_item {
+  font-size: 0;
+  padding: 0.6rem;
+}
+.middle .tab_item h5 {
+  font-size: 0.52rem;
+  color: #cc9900;
+  font-weight: normal;
+}
+.middle .tab_item ul {
+  overflow: hidden;
+}
+.middle .tab_item ul li {
+  float: left;
+  height: 0.8rem;
+  width: 2.68rem;
+  border: 0.02rem solid #cccccc;
+  overflow: hidden;
+  margin: .28rem .5rem;
+  margin-left: 0;
+  text-align: center;
+}
+.middle .tab_item ul li a {
+  display: inline-block;
+  height: 0.8rem;
+  font-size: 0.48rem;
+  color: #333333;
+  line-height: 0.8rem;
+}

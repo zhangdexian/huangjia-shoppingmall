@@ -1,0 +1,141 @@
+.header {
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+  background-color: #999999;
+}
+.header a {
+  float: left;
+  color: #ffffff;
+  margin-left: 0.52rem;
+  line-height: 1.8rem;
+  margin-top: -0.08rem;
+}
+.header h3 {
+  width: 14rem;
+  font-size: 0.72rem;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1.8rem;
+}
+.middle {
+  padding-bottom: 8.6rem;
+}
+.middle .user_info {
+  text-align: center;
+  padding-top: 1.2rem;
+  width: 100%;
+  background: url("../img/user02.png") no-repeat;
+  background-size: cover;
+}
+.middle .user_info .avatar {
+  width: 3.08rem;
+  height: 3.08rem;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.middle .user_info .avatar img {
+  width: 3.08rem;
+  height: 3.08rem;
+}
+.middle .user_info h5 {
+  font-size: 0.48rem;
+  color: #ffffff;
+  font-weight: normal;
+  margin-top: 0.12rem;
+}
+.middle .user_info .edit_profile {
+  text-align: right;
+}
+.middle .user_info .edit_profile a {
+  font-size: 0.48rem;
+  color: #ffffff;
+  margin-right: 0.4rem;
+}
+.middle .my_order {
+  line-height: 1.28rem;
+  padding: 0 .4rem;
+  overflow: hidden;
+}
+.middle .my_order h5 {
+  font-size: 0.6rem;
+  color: #333333;
+  font-weight: normal;
+  float: left;
+  margin-bottom: 0.2rem;
+}
+.middle .my_order a {
+  float: right;
+  font-size: 0.48rem;
+  color: #666666;
+}
+.middle .order_item {
+  overflow: hidden;
+  font-size: 0.48rem;
+  color: #666666;
+  border-bottom: 0.02rem solid #cccccc;
+}
+.middle .order_item li {
+  float: left;
+  padding: 0 .70rem;
+  line-height: 1rem;
+}
+.middle .sub_menu {
+  overflow: hidden;
+  margin-top: 0.2rem;
+}
+.middle .sub_menu li {
+  border-bottom: 0.02rem solid #cccccc;
+  height: 1.48rem;
+}
+.middle .sub_menu li a {
+  font-size: 0.6rem;
+  color: #333333;
+}
+.middle .sub_menu li a img {
+  width: 0.6rem;
+  height: 0.56rem;
+  margin: 0 .4rem;
+}
+.middle .sub_menu li a span {
+  float: right;
+  margin-right: 0.4rem;
+  -webkit-transform: translateY(0.5rem);
+  -moz-transform: translateY(0.5rem);
+  -ms-transform: translateY(0.5rem);
+  -o-transform: translateY(0.5rem);
+  transform: translateY(0.5rem);
+}
+.footer {
+  width: 15rem;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0rem;
+}
+.footer ul {
+  overflow: hidden;
+  padding: .2rem .68rem;
+  font-size: 0;
+  border-top: .04rem solid #e4e4e4;
+  box-shadow: 0 -0.04rem 0.2rem 0.1rem #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul li {
+  text-align: center;
+}
+.footer ul li.current a {
+  color: #ff9900;
+}
+.footer ul li a {
+  text-align: center;
+  font-size: 0.48rem;
+  color: #333333;
+}
+.footer ul li a img {
+  width: 0.96rem;
+  height: 0.96rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.2rem;
+}

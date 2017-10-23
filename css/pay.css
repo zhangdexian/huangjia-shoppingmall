@@ -1,0 +1,171 @@
+.header {
+  overflow: hidden;
+  text-align: center;
+  background-color: #999999;
+}
+.header a {
+  float: left;
+  color: #ffffff;
+  margin-left: 0.52rem;
+  line-height: 1.8rem;
+  margin-top: -0.08rem;
+}
+.header h3 {
+  width: 14rem;
+  font-size: 0.72rem;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1.8rem;
+}
+.middle {
+  color: #333333;
+  font-size: 0.48rem;
+  padding-bottom: 8rem;
+}
+.middle .cart_item {
+  padding: .6rem .4rem 0 .4rem;
+}
+.middle .cart_item li {
+  margin-bottom: 0.6rem;
+}
+.middle .cart_item li table {
+  border-collapse: collapse;
+}
+.middle .cart_item li table tr:last-child {
+  height: 1.2rem;
+}
+.middle .cart_item li table .pro_pic {
+  vertical-align: top;
+}
+.middle .cart_item li table .pro_pic img {
+  width: 5.46rem;
+  height: 5.22rem;
+}
+.middle .cart_item li table .pro_model {
+  vertical-align: top;
+  padding-left: 0.4rem;
+}
+.middle .cart_item li table .pro_model a {
+  color: #333333;
+}
+.middle .cart_item li table .price-wrap,
+.middle .cart_item li table .count_wrap {
+  width: 1.6rem;
+  line-height: 1rem;
+  padding-left: 0.4rem;
+}
+.middle .cart_item li table .total_wrap {
+  line-height: 1rem;
+  padding-left: 0.4rem;
+}
+.middle .cart_item li table .total_tag {
+  width: 2.64rem;
+}
+.middle .cart_item li table .price {
+  color: #cc3333;
+}
+.middle .cart_item li table .discount_info {
+  text-align: right;
+}
+.middle .cart_item li table .discount_info a {
+  color: #666666;
+  padding-right: 0.4rem;
+}
+.middle .cart_item li table .total_tag {
+  font-size: 0.48rem;
+  color: #cc0000;
+}
+.middle .cart_item li table .total_tag .total {
+  font-size: 0.6rem;
+}
+.middle .balance_wrap {
+  font-size: 0.48rem;
+  color: #333333;
+  overflow: hidden;
+  border: 0.02rem solid #333333;
+  line-height: 1.28rem;
+  width: 13.4rem;
+  margin: 0 auto;
+  padding: 0 .4rem;
+}
+.middle .balance_wrap .balance {
+  float: right;
+  font-size: 0.6rem;
+  color: #cc0000;
+}
+.middle .payment h5 {
+  font-size: 0.56rem;
+  color: #333333;
+  font-weight: normal;
+  margin-top: 0.6rem;
+  padding: 0 .4rem;
+}
+.middle .payment ul li:not(:last-child) {
+  overflow: hidden;
+  padding: .56rem .4rem .2rem .4rem;
+  border-bottom: 0.02rem solid #cccccc;
+}
+.middle .payment ul li:not(:last-child) div:first-child {
+  float: left;
+  font-size: 0.48rem;
+  color: #333333;
+  line-height: 0.92rem;
+}
+.middle .payment ul li:not(:last-child) div:first-child img {
+  width: 0.92rem;
+  height: 0.92rem;
+  vertical-align: middle;
+  margin-right: 0.4rem;
+}
+.middle .payment ul li:not(:last-child) div:last-child {
+  float: right;
+  width: 0.64rem;
+  height: 0.64rem;
+  border: 0.02rem solid #ff9900;
+  position: relative;
+}
+.middle .payment ul li:not(:last-child) div:last-child input[type=radio] {
+  opacity: 0;
+  width: 0.64rem;
+  height: 0.64rem;
+  position: absolute;
+  z-index: 10;
+}
+.middle .payment ul li:not(:last-child) div:last-child input[type=radio]:checked + span {
+  opacity: 1;
+}
+.middle .payment ul li:not(:last-child) div:last-child span {
+  font-weight: bold;
+  color: #ff9900;
+  font-size: 0.8rem;
+  line-height: 0.72rem;
+  opacity: 0;
+}
+.middle .payment ul li:last-child {
+  overflow: hidden;
+  padding: 0 .4rem;
+  top: 0.6rem;
+  font-size: 0.56rem;
+  color: #333333;
+  margin-top: 0.6rem;
+}
+.middle .payment ul li:last-child div {
+  float: left;
+}
+.middle .payment ul li:last-child a {
+  float: right;
+  color: #333333;
+}
+.middle .payment .pay_instant {
+  display: block;
+  width: 6rem;
+  height: 1.2rem;
+  border-radius: 0.2rem;
+  background-color: #ff9900;
+  text-align: center;
+  line-height: 1.2rem;
+  margin: 0 auto;
+  font-size: 0.72rem;
+  color: #ffffff;
+  margin-top: 1.2rem;
+}

@@ -1,0 +1,231 @@
+@import "_function";
+
+
+.wrap{
+  .w(750);
+  background: url("../img/register01.png");
+  .p-t(16);
+  .t-a-c;
+  .wrap_head{
+    .o-f;
+    .m-b(80);
+    a{
+      .f-s(54);
+      .c(#fff);
+      .f-l;
+      .m-l(30);
+      .dis-b;
+      .h(62);
+      -webkit-transform: translateY(-.16rem);
+      -moz-transform: translateY(-.16rem);
+      -ms-transform: translateY(-.16rem);
+      -o-transform: translateY(-.16rem);
+      transform: translateY(-.16rem);
+    }
+    h4{
+      .t-a-c;
+      .f-s(30);
+      .c(#fff);
+      .l-h(62);
+      .w(700);
+  }
+  }
+  .avatar{
+    .w(236);
+    .h(236);
+    border-radius: 50%;
+    .m-a;
+    .o-f;
+    img{
+      .w(233);
+      .h(233);
+    }
+  }
+  .register{
+    .m-t(80);
+    .f-s-0;
+    .user_name,.pwd,.identify{
+      .w(580);
+      .m-a;
+      .h(54);
+      .f-s(30);
+      .c(#fff);
+      .l-h(54);
+      .t-i(20);
+      text-align: left;
+      span{
+        color: red;
+        .m-l(50);
+      }
+      ::-webkit-input-placeholder {
+        color:#fff;
+      }
+      :-moz-placeholder {
+        color:#fff;
+      }
+      ::-moz-placeholder {
+        color:#fff;
+      }
+      :-ms-input-placeholder {
+        color:#fff;
+      }
+      input{
+        .w(512);
+        .h(50);
+        .b-n;
+        .b(1,solid,#fff);
+        background-color: transparent;
+        outline: none;
+        .f-s(30);
+        .l-h(50);
+        .t-i(30);
+        .c(#fff);
+      }
+      &.user_name{
+        img{
+          .w(30);
+          .h(32);
+          .m-r(6);
+        }
+        .m-b(60);
+      }
+      &.pwd{
+        img{
+          .w(25);
+          .h(32);
+          .m-r(11);
+        }
+        .m-b(60);
+      }
+      &.identify{
+        .m-b(16);
+        .t-a-l;
+        .w(580);
+        position: relative;
+        img:first-child{
+          .w(25);
+          .h(31);
+          .m-r(11);
+          vertical-align: middle;
+        }
+        /*img:last-child{
+          .w(117);
+          .h(54);
+          .m-l(30);
+          vertical-align: bottom;
+        }*/
+        span{
+          .dis-ib;
+          .w(117);
+          .h(54);
+          .m-l(30);
+          vertical-align: bottom;
+          background: url("../img/register10.png");
+        }
+        i{
+          position: absolute;
+          top: 0;
+          .r(176);
+          font-style: normal;
+          &.correct{
+            color: green;
+          }
+          &.error{
+            color: red;
+          }
+        }
+        input{
+           .w(366);
+        }
+      }
+    }
+    .subscribe{
+      .f-s(24);
+      .c(#fff);
+      .t-a-l;
+      .t-i(136);
+      position: relative;
+      span{
+        position: absolute;
+        color: #ff9900;
+        .dis-b;
+        .t(0);
+        .l(1);
+        .f-s(24);
+        font-weight: bold;
+        opacity: 0;
+      }
+      input{
+        .m-r(10);
+        position: relative;
+        opacity: 0;
+        z-index: 1;
+        &:checked + span{
+          opacity: 1;
+        }
+      }
+    }
+    b{
+      .dis-ib;
+      .w(18);
+      .h(18);
+      .b(1,solid,#fff);
+      position: absolute;
+      .t(7);
+    }
+    button{
+      .w(242);
+      .h(54);
+      .m-a;
+      .f-s(30);
+      .c(#fff);
+      background-color: rgba(255,255,255,0.4);
+      .b-n;
+      .outline-n;
+      .m-t(60);
+      .m-b(14);
+    }
+    a{
+      .f-s(24);
+      .c(#fff);
+    }
+  }
+  .third_party_login{
+    .m-t(80);
+    .p-b(110);
+    .f-s-0;
+    h5{
+      .f-s(30);
+      .c(#fff);
+      position: relative;
+      .m-b(34);
+      &:before{
+        content: "";
+        display: block;
+        .w(190);
+        .h(1);
+        background: linear-gradient(to left,#fff,#8a8b89);
+        position: absolute;
+        .t(14);
+        .l(100);
+      }
+      &:after{
+        content: "";
+        display: block;
+        .w(190);
+        .h(1);
+        background: linear-gradient(to right,#fff,#8a8b89);
+        position: absolute;
+        .t(14);
+        .r(100);
+      }
+    }
+    a{
+      margin: 0 1.02rem;
+      img{
+        .w(71);
+        .h(71);
+      }
+    }
+  }
+}

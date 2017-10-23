@@ -1,0 +1,149 @@
+@import "_function";
+
+*{
+  font-family: 微软雅黑;
+}
+
+.header{
+  width: 100%;
+  .p-t(24);
+  .p-b(24);
+  .b-g-c(#999999);
+  form{
+    .f-s-0;
+    .o-f;
+    .prev{
+      .dis-ib;
+      .w(84);
+      .f-s(50);
+      .c(#fff);
+      .f-l;
+      .t-a-c;
+      .h(40);
+      -webkit-transform: translateY(-.30rem);
+      -moz-transform: translateY(-.30rem);
+      -ms-transform: translateY(-.30rem);
+      -o-transform: translateY(-.30rem);
+      transform: translateY(-.30rem);
+    }
+    .search{
+      .h(28);
+      .w(524);
+      border: .02rem solid #fff;
+      .m-a;
+      .f-l;
+      .p-l(6);
+      .h(40);
+      .t-a-l;
+      img{
+        .w(23);
+        .h(25);
+        .m-t(8);
+        .m-r(10);
+      }
+      input{
+        .w(462);
+        .b-n;
+        .f-s(24);
+        .c(#ccc);
+        .l-h(40);
+        vertical-align: top;
+        .b-g-c(transparent);
+        .b-n;
+        outline: none;
+      }
+    }
+    .search_bth{
+      .dis-ib;
+      .f-s(30);
+      .m-l(24);
+      .c(#fff);
+      .l-h(40);
+    }
+  }
+
+}
+.middle{
+  padding: .6rem .4rem 3.8rem .4rem;
+  .o-f;
+  .slider_nav{
+    .f-l;
+    .w(130);
+    .f-s(26);
+    .m-r(40);
+    li{
+      .l-h(80);
+      margin-bottom: 1px;
+      .c(#272636);
+      .b-g-c(#cccc99);
+      .t-a-c;
+      &.current{
+        .b-g-c(#ff9900);
+        .c(#272636);
+      }
+    }
+  }
+  .content{
+    .f-l;
+    .w(540);
+    .o-f;
+    .f-s-0;
+    ul{
+      display: none;
+      li{
+        .f-l;
+        .m-b(30);
+        &:nth-child(2n){
+          .m-l(20);
+        }
+        a{
+          display: block;
+          .f-s(32);
+          .c(#272636);
+          .t-a-c;
+          img{
+            .w(259);
+            .h(203);
+          }
+
+        }
+      }
+    }
+  }
+}
+
+.footer{
+  .w(750);
+  .b-g-c(#fff);
+  position: fixed;
+  .b(0);
+  ul{
+    .o-f;
+    padding: .2rem .68rem;
+    .f-s-0;
+    border-top: .04rem solid #e4e4e4;
+    box-shadow: 0 -.04rem .2rem .1rem #e4e4e4 ;
+    display: flex;
+    justify-content: space-between;
+    li{
+      .t-a-c;
+      &.current{
+        a{
+          .c(#ff9900);
+        }
+      }
+      a {
+        .t-a-c;
+        img{
+          .w(48);
+          .h(48);
+          .dis-b;
+          .m-a;
+          .m-b(10);
+        }
+        .f-s(24);
+        .c(#333);
+      }
+    }
+  }
+}

@@ -1,0 +1,141 @@
+.header {
+  overflow: hidden;
+  text-align: center;
+  padding: 0;
+  background-color: #999999;
+}
+.header a {
+  float: left;
+  color: #ffffff;
+  margin-left: 0.52rem;
+  line-height: 1.8rem;
+  margin-top: -0.08rem;
+}
+.header h3 {
+  width: 14rem;
+  font-size: 0.72rem;
+  color: #ffffff;
+  font-weight: normal;
+  line-height: 1.8rem;
+}
+.middle {
+  font-size: 0;
+  padding-bottom: 2.8rem;
+}
+.middle .filter {
+  padding: 0 .6rem;
+  overflow: hidden;
+  border-bottom: 0.2rem solid #e9e8e8;
+}
+.middle .filter li {
+  float: left;
+  font-size: 0.6rem;
+  color: #333333;
+  line-height: 1.4rem;
+}
+.middle .filter li:not(:first-child) {
+  margin-left: 2.2rem;
+}
+.middle .filter li.current {
+  color: #ff9900;
+}
+.middle .order_item {
+  padding: 0 .4rem .6rem .4rem;
+}
+.middle .order_item li {
+  overflow: hidden;
+  margin-top: 0.6rem;
+}
+.middle .order_item li > div:first-child {
+  float: left;
+}
+.middle .order_item li > div:first-child a {
+  width: 5.44rem;
+  height: 4.3rem;
+  overflow: hidden;
+}
+.middle .order_item li > div:first-child a img {
+  width: 5.44rem;
+  height: 4.3rem;
+}
+.middle .order_item li > div:last-child {
+  width: 8.4rem;
+  float: left;
+  margin-left: 0.32rem;
+}
+.middle .order_item li > div:last-child h5 a {
+  font-size: 0.48rem;
+  color: #333333;
+  line-height: 0.64rem;
+  font-weight: normal;
+}
+.middle .order_item li > div:last-child p a {
+  font-size: 0.48rem;
+  color: #666666;
+  line-height: 1.6rem;
+}
+.middle .order_item li > div:last-child p a span {
+  font-size: 0.48rem;
+  color: #333333;
+}
+.middle .order_item li > div:last-child > div {
+  overflow: hidden;
+}
+.middle .order_item li > div:last-child > div a {
+  font-size: 0.48rem;
+  color: #666666;
+}
+.middle .order_item li > div:last-child > div a .total_price {
+  margin-left: 0.28rem;
+  color: #cc0000;
+}
+.middle .order_item li > div:last-child > div a:nth-child(2) {
+  float: right;
+  display: inline-block;
+  width: 1.8rem;
+  font-size: 0.48rem;
+  color: #ffffff;
+  background-color: #ff9900;
+  text-align: center;
+}
+.middle .order_item li > div:last-child > div .remove_item {
+  float: right;
+  margin-right: 0.8rem;
+}
+.middle .order_item li > div:last-child > div .remove_item img {
+  width: 0.4rem;
+  height: 0.42rem;
+}
+.footer {
+  width: 15rem;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0rem;
+}
+.footer ul {
+  overflow: hidden;
+  padding: .2rem .68rem;
+  font-size: 0;
+  border-top: .04rem solid #e4e4e4;
+  box-shadow: 0 -0.04rem 0.2rem 0.1rem #e4e4e4;
+  display: flex;
+  justify-content: space-between;
+}
+.footer ul li {
+  text-align: center;
+}
+.footer ul li.current a {
+  color: #ff9900;
+}
+.footer ul li a {
+  text-align: center;
+  font-size: 0.48rem;
+  color: #333333;
+}
+.footer ul li a img {
+  width: 0.96rem;
+  height: 0.96rem;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.2rem;
+}
